@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  /* position: absolute; */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* left: 50%; */
+  /* top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+.navMenu a {
+  /* color: #f6f4e6; */
+  text-decoration: none;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 220px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.main-content {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+
+  /* background-color: beige; */
+}
+
+/* ========== */
+/* LOGIN PAGE */
+/* ========== */
+.login-form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* ================== */
+/* RECIPE'S LIST PAGE */
+/* ================== */
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========== */
+/* SEARCH PAGE */
+/* =========== */
+.search-form {
+  margin-top: 50px;
+  text-align: center;
+}
