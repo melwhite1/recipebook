@@ -4,3 +4,7 @@ This Project is a web application that allows users to view and display recipes 
 This project uses Python and Django framework. Recipes are entered in the database using the django admin panel.
 
 This project is hosted on Heroku at: https://intense-river-67514.herokuapp.com/
+
+Users can use a superuser login to access the page: 
+- Username: mentorCF
+- Password: Ment0r@CareerF0undry
